@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        // Set new status to my github project
         Scanner inputHourlyRate = new Scanner(System.in);
         System.out.print("Please enter hourly rate for Peter: " );
         int myHourlyRate = 0;
@@ -16,7 +17,7 @@ public class Main {
 
 Staff staff1 = new Staff("Peter", myHourlyRate);
 staff1.setHoursWorked(160);
-int pay = staff1.calculatePay(1000, 400);
+int pay = staff1.calculatePay(1000, 300);
 System.out.println("Pay = " + pay);
 
 Staff staff2 = new Staff("Kiwako", "Ito", 35);

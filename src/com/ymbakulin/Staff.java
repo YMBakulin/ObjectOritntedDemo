@@ -21,6 +21,7 @@ public class Staff {
         System.out.println("---------------------------------");
     }
 
+
     public void printMessage()
     {
         System.out.println("Calculating Pay...");
