@@ -8,8 +8,8 @@ public class Main {
 	// write your code here
         // Set new status to my github project
         Scanner inputHourlyRate = new Scanner(System.in);
-        System.out.print("Please enter hourly rate for Yuriy: " );
-        int myHourlyRate = 5;
+        System.out.print("Please enter hourly rate for Peter: " );
+        int myHourlyRate = 0;
        do {
            myHourlyRate = inputHourlyRate.nextInt();
            if (myHourlyRate<=0) System.out.println("Error: hourly rate cannot be smaller then zero!");
