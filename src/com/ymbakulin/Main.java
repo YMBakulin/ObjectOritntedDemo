@@ -8,7 +8,7 @@ public class Main {
 	// write your code here
         // Set new status to my github project
         Scanner inputHourlyRate = new Scanner(System.in);
-        System.out.print("Please enter hourly rate for Mr. Yuriy Bakulin: " );
+        System.out.print("Please enter hourly rate for Mr. Yuriy B.: " );
         int myHourlyRate = 25;
        do {
            myHourlyRate = inputHourlyRate.nextInt();
