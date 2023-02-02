@@ -55,6 +55,7 @@ public class Staff {
 
     public int getHoursWorked()
     {
+        hoursWorked +=1;
         return hoursWorked;
     }
 }
