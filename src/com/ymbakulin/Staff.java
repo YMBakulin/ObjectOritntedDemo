@@ -32,6 +32,7 @@ public class Staff {
         printMessage();
 
         int staffPay;
+//        here will be the new message
         staffPay = hoursWorked * hourlyRate;
         if (hoursWorked>0) return staffPay;
         else return -1;
