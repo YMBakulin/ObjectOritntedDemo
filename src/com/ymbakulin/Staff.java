@@ -46,6 +46,7 @@ public class Staff {
 
     public void setHoursWorked(int hours)
     {
+//        new message
         if (hours>0) hoursWorked = hours;
         else {
             System.out.println("Error: HoursWorked cannot be smaller then zero");
