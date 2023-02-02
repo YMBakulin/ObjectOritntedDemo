@@ -40,6 +40,7 @@ public class Staff {
     public int calculatePay(int bonus, int allowance)
     {
         printMessage();
+        System.out.println("the new message");
         if (hoursWorked>0) return hoursWorked*hourlyRate + bonus + allowance;
         else return 0;
     }
