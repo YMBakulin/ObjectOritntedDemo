@@ -5,6 +5,6 @@ public class Company {
     Integer id;
     String name;
     String address;
-    Long phoneNumber;
+    Long phoneNumber = 23L;
 
 }
