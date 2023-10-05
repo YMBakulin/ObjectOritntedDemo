@@ -9,6 +9,13 @@ public class Company {
     String address;
     Long phoneNumber = 23L;
 
+    public Company(Integer id, String name, String address, Long phoneNumber) {
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.phoneNumber = phoneNumber;
+    }
+
     public Integer getId() {
         return id;
     }
