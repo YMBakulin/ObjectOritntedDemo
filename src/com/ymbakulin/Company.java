@@ -1,5 +1,7 @@
 package com.ymbakulin;
 
+import java.util.Objects;
+
 public class Company {
 
     Integer id;
@@ -37,5 +39,18 @@ public class Company {
 
     public void setPhoneNumber(Long phoneNumber) {
         this.phoneNumber = phoneNumber;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Company)) return false;
+        Company company = (Company) o;
+        return Objects.equals(id, company.id) && Objects.equals(name, company.name) && Objects.equals(address, company.address) && Objects.equals(phoneNumber, company.phoneNumber);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, address, phoneNumber);
     }
 }
