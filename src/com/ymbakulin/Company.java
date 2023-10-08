@@ -16,6 +16,10 @@ public class Company {
         this.phoneNumber = phoneNumber;
     }
 
+    void showCompanyInfo(Integer id) {
+
+    }
+
     public Integer getId() {
         return id;
     }
