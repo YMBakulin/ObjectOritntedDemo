@@ -5,12 +5,22 @@ public class Staff {
     private int hourlyRate;
     private int hoursWorked;
 
+    private String workerName;
+
     public Staff(String name, int hRate)
     {
         nameOfStaff = name;
         hourlyRate = hRate;
         System.out.println("\n" + nameOfStaff);
         System.out.println("---------------------------------");
+    }
+
+    public void setWorkerName(String workerName) {
+        this.workerName = workerName;
+    }
+
+    public String getWorkerName() {
+        return workerName;
     }
 
     public Staff(String firstName, String lastName, int hRate)
