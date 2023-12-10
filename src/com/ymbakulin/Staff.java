@@ -25,14 +25,6 @@ public class Staff {
         System.out.println("---------------------------------");
     }
 
-    public void setWorkerName(String workerName) {
-        this.workerName = workerName;
-    }
-
-    public String getWorkerName() {
-        return workerName;
-    }
-
     public Staff(String firstName, String lastName, int hRate)
     {
         nameOfStaff = firstName + " " + lastName;
