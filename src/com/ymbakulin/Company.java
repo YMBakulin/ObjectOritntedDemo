@@ -7,7 +7,7 @@ public class Company {
     Integer id;
     String name;
     String address;
-    Long phoneNumber = 23L;
+    Long phoneNumber;
 
     public Company(Integer id, String name, String address, Long phoneNumber) {
         this.id = id;
