@@ -5,6 +5,14 @@ public class Staff {
     private int hourlyRate;
     private int hoursWorked;
 
+    public String getWorkerName() {
+        return workerName;
+    }
+
+    public void setWorkerName(String workerName) {
+        this.workerName = workerName;
+    }
+
     private String workerName;
 
     private String workerFamilyName;
