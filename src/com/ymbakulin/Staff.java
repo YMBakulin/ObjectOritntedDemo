@@ -5,6 +5,18 @@ public class Staff {
     private int hourlyRate;
     private int hoursWorked;
 
+    private String workerName;
+
+    private String workerFamilyName;
+
+    public String getWorkerFamilyName() {
+        return workerFamilyName;
+    }
+
+    public void setWorkerFamilyName(String workerFamilyName) {
+        this.workerFamilyName = workerFamilyName;
+    }
+
     public Staff(String name, int hRate)
     {
         nameOfStaff = name;
@@ -32,6 +44,7 @@ public class Staff {
         printMessage();
 
         int staffPay;
+//        here will be the new message
         staffPay = hoursWorked * hourlyRate;
         if (hoursWorked>0) return staffPay;
         else return -1;
