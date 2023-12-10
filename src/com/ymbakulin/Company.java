@@ -5,13 +5,13 @@ public class Company {
     Integer id;
     String name;
     String address;
-    Long phoneNumber;
+    final Long phoneNumber = 23L;
 
     public Company(Integer id, String name, String address, Long phoneNumber) {
         this.id = id;
         this.name = name;
         this.address = address;
-        this.phoneNumber = phoneNumber;
+//        this.phoneNumber = phoneNumber;
     }
 
     void showCompanyInfo(Integer id) {
@@ -45,8 +45,8 @@ public class Company {
     public Long getPhoneNumber() {
         return phoneNumber;
     }
-
-    public void setPhoneNumber(Long phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
+//
+//    public void setPhoneNumber(Long phoneNumber) {
+//        this.phoneNumber = phoneNumber;
+//    }
 }
