@@ -7,6 +7,16 @@ public class Staff {
 
     private String workerName;
 
+    private String workerFamilyName;
+
+    public String getWorkerFamilyName() {
+        return workerFamilyName;
+    }
+
+    public void setWorkerFamilyName(String workerFamilyName) {
+        this.workerFamilyName = workerFamilyName;
+    }
+
     public Staff(String name, int hRate)
     {
         nameOfStaff = name;
